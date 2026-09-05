@@ -1,0 +1,1 @@
+Static Greebling microsite. domains.json is the public projection of the supplied domain register. Main map and accessible list are generated from the same data. Alias links use intended canonical targets; this is not evidence of DNS completion. Source essay recovered from the Antlerboy catalogue.

@@ -1,0 +1,180 @@
+{
+  "destinations": [
+    {
+      "domain": "redquadrant.com",
+      "name": "RedQuadrant",
+      "purpose": "Consultancy and change",
+      "role": "commercial",
+      "url": "https://redquadrant.com/"
+    },
+    {
+      "domain": "publicservicetransformation.org",
+      "name": "PSTA",
+      "purpose": "Learning and academies",
+      "role": "learning",
+      "url": "https://publicservicetransformation.org/"
+    },
+    {
+      "domain": "resourceoptimisation.com",
+      "name": "Resource Optimisation",
+      "purpose": "Work, effort, and capacity",
+      "role": "commercial",
+      "url": "https://resourceoptimisation.com/"
+    },
+    {
+      "domain": "quadrantresourcing.com",
+      "name": "Quadrant Resourcing",
+      "purpose": "Interim and specialist people",
+      "role": "commercial",
+      "url": "https://quadrantresourcing.com/"
+    },
+    {
+      "domain": "breakingtheshell.com",
+      "name": "Breaking the Shell",
+      "purpose": "A practical browser exercise",
+      "role": "tool",
+      "url": "https://breakingtheshell.com/"
+    },
+    {
+      "domain": "antlerboy.com",
+      "name": "Antlerboy",
+      "purpose": "Benjamin’s public work",
+      "role": "publishing",
+      "url": "https://antlerboy.com/"
+    },
+    {
+      "domain": "transduction.systems",
+      "name": "The Necessary Tangle",
+      "purpose": "Systems thinking reference",
+      "role": "reference",
+      "url": "https://transduction.systems/"
+    },
+    {
+      "domain": "chosen-path.org",
+      "name": "Chosen Path",
+      "purpose": "Essays and arguments",
+      "role": "publishing",
+      "url": "https://chosen-path.org/"
+    },
+    {
+      "domain": "syscoi.com",
+      "name": "SysCoI",
+      "purpose": "Systems, cybernetics, and complexity",
+      "role": "publishing",
+      "url": "https://syscoi.com/"
+    },
+    {
+      "domain": "greebling.com",
+      "name": "Greebling",
+      "purpose": "Connections and trails",
+      "role": "reference",
+      "url": "https://greebling.com/"
+    }
+  ],
+  "aliases": [
+    {
+      "domain": "redquadrant.co.uk",
+      "destination": "https://redquadrant.com/"
+    },
+    {
+      "domain": "redquadrant.blog",
+      "destination": "https://redquadrant.com/insights/"
+    },
+    {
+      "domain": "redquadrantinsights.co.uk",
+      "destination": "https://redquadrant.com/insights/"
+    },
+    {
+      "domain": "govtransformation.org",
+      "destination": "https://redquadrant.com/insights/government-transformation/"
+    },
+    {
+      "domain": "customerledtransformation.com",
+      "destination": "https://redquadrant.com/customer-led-transformation/"
+    },
+    {
+      "domain": "redquadrantculture.com",
+      "destination": "https://redquadrant.com/methods/culture-and-change/"
+    },
+    {
+      "domain": "redquadrantrichpictures.co.uk",
+      "destination": "https://redquadrant.com/design/rich-pictures/"
+    },
+    {
+      "domain": "redquandrant.com",
+      "destination": "https://redquadrant.com/"
+    },
+    {
+      "domain": "redquadrantacademy.com",
+      "destination": "https://publicservicetransformation.org/programmes/"
+    },
+    {
+      "domain": "publicservicetransformation.com",
+      "destination": "https://publicservicetransformation.org/"
+    },
+    {
+      "domain": "publicservicetransformation.academy",
+      "destination": "https://publicservicetransformation.org/programmes/"
+    },
+    {
+      "domain": "commissioning.academy",
+      "destination": "https://publicservicetransformation.org/commissioning-academy/"
+    },
+    {
+      "domain": "systemsleadership.academy",
+      "destination": "https://publicservicetransformation.org/systems-leadership-academy/"
+    },
+    {
+      "domain": "systemleadership.academy",
+      "destination": "https://publicservicetransformation.org/systems-leadership-academy/"
+    },
+    {
+      "domain": "systemleadership.com",
+      "destination": "https://redquadrant.com/system-leadership/"
+    },
+    {
+      "domain": "systemleadership.co.uk",
+      "destination": "https://redquadrant.com/system-leadership/"
+    },
+    {
+      "domain": "transformationacademy.org",
+      "destination": "https://publicservicetransformation.org/transformation-academies/"
+    },
+    {
+      "domain": "transformationacademy.co.uk",
+      "destination": "https://publicservicetransformation.org/transformation-academies/"
+    },
+    {
+      "domain": "resource-optimisation.com",
+      "destination": "https://resourceoptimisation.com/"
+    },
+    {
+      "domain": "quadrantresourcing.co.uk",
+      "destination": "https://quadrantresourcing.com/"
+    },
+    {
+      "domain": "breakingtheshell.co.uk",
+      "destination": "https://breakingtheshell.com/"
+    },
+    {
+      "domain": "joyandwork.com",
+      "destination": "https://antlerboy.com/conversations/joy-and-work/"
+    },
+    {
+      "domain": "joyandwork.co.uk",
+      "destination": "https://antlerboy.com/conversations/joy-and-work/"
+    },
+    {
+      "domain": "systemsthinking.info",
+      "destination": "https://transduction.systems/systems-thinking/"
+    },
+    {
+      "domain": "bentaylor.com",
+      "destination": "https://antlerboy.com/"
+    },
+    {
+      "domain": "bentaylor.me.uk",
+      "destination": "https://antlerboy.com/"
+    }
+  ]
+}
