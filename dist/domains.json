@@ -19,7 +19,7 @@
       "name": "Resource Optimisation",
       "purpose": "Work, effort, and capacity",
       "role": "commercial",
-      "url": "https://resourceoptimisation.com/"
+      "url": "https://redquadrant.com/resource-optimisation/"
     },
     {
       "domain": "quadrantresourcing.com",
@@ -146,7 +146,7 @@
     },
     {
       "domain": "resource-optimisation.com",
-      "destination": "https://resourceoptimisation.com/"
+      "destination": "https://redquadrant.com/resource-optimisation/"
     },
     {
       "domain": "quadrantresourcing.co.uk",
@@ -175,6 +175,148 @@
     {
       "domain": "bentaylor.me.uk",
       "destination": "https://antlerboy.com/"
+    }
+  ],
+  "offers": [
+    {
+      "title": "Customer-led transformation",
+      "url": "https://redquadrant.com/customer-led-transformation/",
+      "purpose": "Follow a service from the person’s purpose; scope a practical diagnostic."
+    },
+    {
+      "title": "System leadership",
+      "url": "https://redquadrant.com/system-leadership/",
+      "purpose": "Work on the decisions and relationships that cross organisational boundaries."
+    },
+    {
+      "title": "Resource Optimisation",
+      "url": "https://redquadrant.com/resource-optimisation/",
+      "purpose": "Make work, effort, capacity, and choices visible."
+    },
+    {
+      "title": "Local government reorganisation",
+      "url": "https://redquadrant.com/lgrhub/",
+      "purpose": "Practical help with transition, design, and delivery."
+    },
+    {
+      "title": "Commissioning Academy",
+      "url": "https://www.publicservicetransformation.org/programmes/national-commissioning-academy/",
+      "purpose": "Applied learning for commissioners; November cohort, £2,490 excluding VAT."
+    },
+    {
+      "title": "Systems Leadership Academy",
+      "url": "https://www.publicservicetransformation.org/systems-leadership-academy/",
+      "purpose": "Develop partnership practice through a live shared issue."
+    },
+    {
+      "title": "Transformation Academies",
+      "url": "https://www.publicservicetransformation.org/transformation-academies/",
+      "purpose": "Build capability while doing the transformation work."
+    },
+    {
+      "title": "Leading Transformation",
+      "url": "https://www.publicservicetransformation.org/programmes/leading-transformation/",
+      "purpose": "A 24-module repertoire for applied transformation practice."
+    },
+    {
+      "title": "Commissioning health check",
+      "url": "https://www.publicservicetransformation.org/programmes/commissioning-health-check/",
+      "purpose": "A bounded diagnostic and leadership reset."
+    },
+    {
+      "title": "Commissioning simulation",
+      "url": "https://www.publicservicetransformation.org/programmes/commissioning-simulation/",
+      "purpose": "Two days working through decisions and their consequences."
+    },
+    {
+      "title": "Commissioning: a ten-step introduction",
+      "url": "https://www.publicservicetransformation.org/programmes/commissioning-ten-step-introduction/",
+      "purpose": "Three days building a shared commissioning foundation."
+    },
+    {
+      "title": "Contract management development",
+      "url": "https://www.publicservicetransformation.org/programmes/contract-management-development/",
+      "purpose": "Applied judgement across the contract lifecycle."
+    },
+    {
+      "title": "Place-based academies",
+      "url": "https://www.publicservicetransformation.org/programmes/place-based-academies/",
+      "purpose": "Bring a place’s partners together around live work."
+    },
+    {
+      "title": "LGR Academy",
+      "url": "https://www.publicservicetransformation.org/lgr-academy/",
+      "purpose": "Develop the people who must make reorganisation work."
+    },
+    {
+      "title": "Devolution Academy",
+      "url": "https://www.publicservicetransformation.org/devolution-academy/",
+      "purpose": "Learn through new responsibilities and cross-place decisions."
+    },
+    {
+      "title": "Service Transformation Programme",
+      "url": "https://www.publicservicetransformation.org/programmes/service-transformation-programme/",
+      "purpose": "Practical learning delivered by Basis and accredited by PSTA."
+    },
+    {
+      "title": "Accredited training",
+      "url": "https://www.publicservicetransformation.org/accredited-training/",
+      "purpose": "Discuss programme design, review, and recognition."
+    },
+    {
+      "title": "Tool Shed",
+      "url": "https://antlerboy.com/toolshed/",
+      "purpose": "Supported practitioner learning, co-coaching, and mentoring."
+    },
+    {
+      "title": "Interim and specialist people",
+      "url": "https://quadrantresourcing.com/",
+      "purpose": "Find public service experience for a defined piece of work."
+    },
+    {
+      "title": "Breaking the Shell",
+      "url": "https://www.breakingtheshell.com/",
+      "purpose": "Explore a practical exercise in changing how we act."
+    },
+    {
+      "title": "RQ insights",
+      "url": "https://redquadrant.com/insights/",
+      "purpose": "Practice notes on services, systems, commissioning, and learning."
+    },
+    {
+      "title": "PSTA news and practice",
+      "url": "https://www.publicservicetransformation.org/news/",
+      "purpose": "Programme news and practical learning notes."
+    },
+    {
+      "title": "The Necessary Tangle",
+      "url": "https://transduction.systems/",
+      "purpose": "Find your way through systems, cybernetics, and complexity."
+    },
+    {
+      "title": "Systems events",
+      "url": "https://events.transduction.systems/",
+      "purpose": "Explore events and learning opportunities."
+    },
+    {
+      "title": "Chosen Path",
+      "url": "https://chosen-path.org/",
+      "purpose": "Read essays and arguments."
+    },
+    {
+      "title": "SysCoI",
+      "url": "https://syscoi.com/",
+      "purpose": "Follow the systems community’s continuing inquiry."
+    },
+    {
+      "title": "Transduction conversations",
+      "url": "https://antlerboy.com/conversations/transduction/",
+      "purpose": "Explore the conversation series and its developing archive."
+    },
+    {
+      "title": "Joy and Work",
+      "url": "https://antlerboy.com/conversations/joy-and-work/",
+      "purpose": "Conversations about working lives and what makes them worthwhile."
     }
   ]
 }
