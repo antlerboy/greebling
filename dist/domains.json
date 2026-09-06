@@ -57,12 +57,11 @@
     },
     {
       "title": "Resource Optimisation",
-      "url": "https://resource-optimisation.redquadrant-0856.chatgpt.site/",
+      "url": "https://resource-optimisation.com/",
       "purpose": "Work, effort, and capacity",
       "group": "main",
       "map": true,
-      "address": "resourceoptimisation.com",
-      "note": "Domain connection pending; use the current website link."
+      "address": "resource-optimisation.com"
     },
     {
       "title": "Quadrant Resourcing",
@@ -828,6 +827,13 @@
       "url": "https://antlerboy.github.io/GrokstarburstZX81/",
       "purpose": "A browser recreation of the ZX81 game.",
       "group": "experiments"
+    },
+    {
+      "title": "RedQuadrant campaign links",
+      "url": "https://redquadrant-campaign-links.redquadrant-0856.chatgpt.site",
+      "purpose": "Systems leadership, the academy, and customer-led transformation",
+      "group": "reference",
+      "map": false
     }
   ],
   "aliases": [
@@ -934,11 +940,6 @@
     {
       "domain": "redquandrant.com",
       "destination": "https://redquadrant.com/",
-      "status": "Destination listed; redirect not verified in this update."
-    },
-    {
-      "domain": "resource-optimisation.com",
-      "destination": "https://resourceoptimisation.com/",
       "status": "Destination listed; redirect not verified in this update."
     },
     {
