@@ -1,322 +1,1001 @@
 {
-  "destinations": [
+  "updated": "2026-09-06",
+  "groups": [
+    [
+      "main",
+      "Main websites"
+    ],
+    [
+      "consulting",
+      "Consulting and specialist offers"
+    ],
+    [
+      "learning",
+      "Academies and learning"
+    ],
+    [
+      "tools",
+      "Exercises, tools, and events"
+    ],
+    [
+      "publishing",
+      "Writing, news, and conversations"
+    ],
+    [
+      "reference",
+      "Reference and practice"
+    ],
+    [
+      "library",
+      "Public library collections"
+    ],
+    [
+      "elsewhere",
+      "Publishing elsewhere"
+    ],
+    [
+      "experiments",
+      "Games and experiments"
+    ]
+  ],
+  "surfaces": [
     {
-      "domain": "redquadrant.com",
-      "name": "RedQuadrant",
+      "title": "RedQuadrant",
+      "url": "https://redquadrant.com/",
       "purpose": "Consultancy and change",
-      "role": "commercial",
-      "url": "https://redquadrant.com/"
+      "group": "main",
+      "map": true,
+      "address": "redquadrant.com"
     },
     {
-      "domain": "publicservicetransformation.org",
-      "name": "PSTA",
+      "title": "PSTA",
+      "url": "https://www.publicservicetransformation.org/",
       "purpose": "Learning and academies",
-      "role": "learning",
-      "url": "https://publicservicetransformation.org/"
-    },
-    {
-      "domain": "resourceoptimisation.com",
-      "name": "Resource Optimisation",
-      "purpose": "Work, effort, and capacity",
-      "role": "commercial",
-      "url": "https://redquadrant.com/resource-optimisation/"
-    },
-    {
-      "domain": "quadrantresourcing.com",
-      "name": "Quadrant Resourcing",
-      "purpose": "Interim and specialist people",
-      "role": "commercial",
-      "url": "https://quadrantresourcing.com/"
-    },
-    {
-      "domain": "breakingtheshell.com",
-      "name": "Breaking the Shell",
-      "purpose": "A practical browser exercise",
-      "role": "tool",
-      "url": "https://breakingtheshell.com/"
-    },
-    {
-      "domain": "antlerboy.com",
-      "name": "Antlerboy",
-      "purpose": "Benjamin’s public work",
-      "role": "publishing",
-      "url": "https://antlerboy.com/"
-    },
-    {
-      "domain": "transduction.systems",
-      "name": "The Necessary Tangle",
-      "purpose": "Systems thinking reference",
-      "role": "reference",
-      "url": "https://transduction.systems/"
-    },
-    {
-      "domain": "chosen-path.org",
-      "name": "Chosen Path",
-      "purpose": "Essays and arguments",
-      "role": "publishing",
-      "url": "https://chosen-path.org/"
-    },
-    {
-      "domain": "syscoi.com",
-      "name": "SysCoI",
-      "purpose": "Systems, cybernetics, and complexity",
-      "role": "publishing",
-      "url": "https://syscoi.com/"
-    },
-    {
-      "domain": "greebling.com",
-      "name": "Greebling",
-      "purpose": "Connections and trails",
-      "role": "reference",
-      "url": "https://greebling.com/"
-    }
-  ],
-  "aliases": [
-    {
-      "domain": "redquadrant.co.uk",
-      "destination": "https://redquadrant.com/"
-    },
-    {
-      "domain": "redquadrant.blog",
-      "destination": "https://redquadrant.com/insights/"
-    },
-    {
-      "domain": "redquadrantinsights.co.uk",
-      "destination": "https://redquadrant.com/insights/"
-    },
-    {
-      "domain": "govtransformation.org",
-      "destination": "https://redquadrant.com/insights/government-transformation/"
-    },
-    {
-      "domain": "customerledtransformation.com",
-      "destination": "https://redquadrant.com/customer-led-transformation/"
-    },
-    {
-      "domain": "redquadrantculture.com",
-      "destination": "https://redquadrant.com/methods/culture-and-change/"
-    },
-    {
-      "domain": "redquadrantrichpictures.co.uk",
-      "destination": "https://redquadrant.com/design/rich-pictures/"
-    },
-    {
-      "domain": "redquandrant.com",
-      "destination": "https://redquadrant.com/"
-    },
-    {
-      "domain": "redquadrantacademy.com",
-      "destination": "https://publicservicetransformation.org/programmes/"
-    },
-    {
-      "domain": "publicservicetransformation.com",
-      "destination": "https://publicservicetransformation.org/"
-    },
-    {
-      "domain": "publicservicetransformation.academy",
-      "destination": "https://publicservicetransformation.org/programmes/"
-    },
-    {
-      "domain": "commissioning.academy",
-      "destination": "https://publicservicetransformation.org/commissioning-academy/"
-    },
-    {
-      "domain": "systemsleadership.academy",
-      "destination": "https://publicservicetransformation.org/systems-leadership-academy/"
-    },
-    {
-      "domain": "systemleadership.academy",
-      "destination": "https://publicservicetransformation.org/systems-leadership-academy/"
-    },
-    {
-      "domain": "systemleadership.com",
-      "destination": "https://redquadrant.com/system-leadership/"
-    },
-    {
-      "domain": "systemleadership.co.uk",
-      "destination": "https://redquadrant.com/system-leadership/"
-    },
-    {
-      "domain": "transformationacademy.org",
-      "destination": "https://publicservicetransformation.org/transformation-academies/"
-    },
-    {
-      "domain": "transformationacademy.co.uk",
-      "destination": "https://publicservicetransformation.org/transformation-academies/"
-    },
-    {
-      "domain": "resource-optimisation.com",
-      "destination": "https://redquadrant.com/resource-optimisation/"
-    },
-    {
-      "domain": "quadrantresourcing.co.uk",
-      "destination": "https://quadrantresourcing.com/"
-    },
-    {
-      "domain": "breakingtheshell.co.uk",
-      "destination": "https://breakingtheshell.com/"
-    },
-    {
-      "domain": "joyandwork.com",
-      "destination": "https://antlerboy.com/conversations/joy-and-work/"
-    },
-    {
-      "domain": "joyandwork.co.uk",
-      "destination": "https://antlerboy.com/conversations/joy-and-work/"
-    },
-    {
-      "domain": "systemsthinking.info",
-      "destination": "https://transduction.systems/systems-thinking/"
-    },
-    {
-      "domain": "bentaylor.com",
-      "destination": "https://antlerboy.com/"
-    },
-    {
-      "domain": "bentaylor.me.uk",
-      "destination": "https://antlerboy.com/"
-    }
-  ],
-  "offers": [
-    {
-      "title": "Customer-led transformation",
-      "url": "https://redquadrant.com/customer-led-transformation/",
-      "purpose": "Follow a service from the person’s purpose; scope a practical diagnostic."
-    },
-    {
-      "title": "System leadership",
-      "url": "https://redquadrant.com/system-leadership/",
-      "purpose": "Work on the decisions and relationships that cross organisational boundaries."
+      "group": "main",
+      "map": true,
+      "address": "publicservicetransformation.org"
     },
     {
       "title": "Resource Optimisation",
-      "url": "https://redquadrant.com/resource-optimisation/",
-      "purpose": "Make work, effort, capacity, and choices visible."
+      "url": "https://resource-optimisation.redquadrant-0856.chatgpt.site/",
+      "purpose": "Work, effort, and capacity",
+      "group": "main",
+      "map": true,
+      "address": "resourceoptimisation.com",
+      "note": "Domain connection pending; use the current website link."
     },
     {
-      "title": "Local government reorganisation",
-      "url": "https://redquadrant.com/lgrhub/",
-      "purpose": "Practical help with transition, design, and delivery."
-    },
-    {
-      "title": "Commissioning Academy",
-      "url": "https://www.publicservicetransformation.org/programmes/national-commissioning-academy/",
-      "purpose": "Applied learning for commissioners; November cohort, £2,490 excluding VAT."
-    },
-    {
-      "title": "Systems Leadership Academy",
-      "url": "https://www.publicservicetransformation.org/systems-leadership-academy/",
-      "purpose": "Develop partnership practice through a live shared issue."
-    },
-    {
-      "title": "Transformation Academies",
-      "url": "https://www.publicservicetransformation.org/transformation-academies/",
-      "purpose": "Build capability while doing the transformation work."
-    },
-    {
-      "title": "Leading Transformation",
-      "url": "https://www.publicservicetransformation.org/programmes/leading-transformation/",
-      "purpose": "A 24-module repertoire for applied transformation practice."
-    },
-    {
-      "title": "Commissioning health check",
-      "url": "https://www.publicservicetransformation.org/programmes/commissioning-health-check/",
-      "purpose": "A bounded diagnostic and leadership reset."
-    },
-    {
-      "title": "Commissioning simulation",
-      "url": "https://www.publicservicetransformation.org/programmes/commissioning-simulation/",
-      "purpose": "Two days working through decisions and their consequences."
-    },
-    {
-      "title": "Commissioning: a ten-step introduction",
-      "url": "https://www.publicservicetransformation.org/programmes/commissioning-ten-step-introduction/",
-      "purpose": "Three days building a shared commissioning foundation."
-    },
-    {
-      "title": "Contract management development",
-      "url": "https://www.publicservicetransformation.org/programmes/contract-management-development/",
-      "purpose": "Applied judgement across the contract lifecycle."
-    },
-    {
-      "title": "Place-based academies",
-      "url": "https://www.publicservicetransformation.org/programmes/place-based-academies/",
-      "purpose": "Bring a place’s partners together around live work."
-    },
-    {
-      "title": "LGR Academy",
-      "url": "https://www.publicservicetransformation.org/lgr-academy/",
-      "purpose": "Develop the people who must make reorganisation work."
-    },
-    {
-      "title": "Devolution Academy",
-      "url": "https://www.publicservicetransformation.org/devolution-academy/",
-      "purpose": "Learn through new responsibilities and cross-place decisions."
-    },
-    {
-      "title": "Service Transformation Programme",
-      "url": "https://www.publicservicetransformation.org/programmes/service-transformation-programme/",
-      "purpose": "Practical learning delivered by Basis and accredited by PSTA."
-    },
-    {
-      "title": "Accredited training",
-      "url": "https://www.publicservicetransformation.org/accredited-training/",
-      "purpose": "Discuss programme design, review, and recognition."
-    },
-    {
-      "title": "Tool Shed",
-      "url": "https://antlerboy.com/toolshed/",
-      "purpose": "Supported practitioner learning, co-coaching, and mentoring."
-    },
-    {
-      "title": "Interim and specialist people",
-      "url": "https://quadrantresourcing.com/",
-      "purpose": "Find public service experience for a defined piece of work."
+      "title": "Quadrant Resourcing",
+      "url": "https://quadrant-resourcing.redquadrant-0856.chatgpt.site/",
+      "purpose": "Interim and specialist people",
+      "group": "main",
+      "map": true,
+      "address": "quadrantresourcing.com",
+      "note": "Domain connection pending; use the current website link."
     },
     {
       "title": "Breaking the Shell",
       "url": "https://www.breakingtheshell.com/",
-      "purpose": "Explore a practical exercise in changing how we act."
+      "purpose": "A practical browser exercise",
+      "group": "tools",
+      "map": true,
+      "address": "breakingtheshell.com"
     },
     {
-      "title": "RQ insights",
-      "url": "https://redquadrant.com/insights/",
-      "purpose": "Practice notes on services, systems, commissioning, and learning."
-    },
-    {
-      "title": "PSTA news and practice",
-      "url": "https://www.publicservicetransformation.org/news/",
-      "purpose": "Programme news and practical learning notes."
+      "title": "Antlerboy",
+      "url": "https://antlerboy.com/",
+      "purpose": "Benjamin’s public work",
+      "group": "main",
+      "map": true,
+      "address": "antlerboy.com"
     },
     {
       "title": "The Necessary Tangle",
       "url": "https://transduction.systems/",
-      "purpose": "Find your way through systems, cybernetics, and complexity."
-    },
-    {
-      "title": "Systems events",
-      "url": "https://events.transduction.systems/",
-      "purpose": "Explore events and learning opportunities."
+      "purpose": "Systems thinking reference",
+      "group": "main",
+      "map": true,
+      "address": "transduction.systems"
     },
     {
       "title": "Chosen Path",
       "url": "https://chosen-path.org/",
-      "purpose": "Read essays and arguments."
+      "purpose": "Essays and arguments",
+      "group": "main",
+      "map": true,
+      "address": "chosen-path.org"
     },
     {
       "title": "SysCoI",
       "url": "https://syscoi.com/",
-      "purpose": "Follow the systems community’s continuing inquiry."
+      "purpose": "Systems, cybernetics, and complexity",
+      "group": "main",
+      "map": true,
+      "address": "syscoi.com"
+    },
+    {
+      "title": "Greebling",
+      "url": "https://greebling.com/",
+      "purpose": "Connections and trails",
+      "group": "main",
+      "map": true,
+      "address": "greebling.com"
+    },
+    {
+      "title": "Peter Block community exercise",
+      "url": "https://community.antlerboy.com/",
+      "purpose": "Listening, connection, and recognising gifts, with original slides and facilitator guidance.",
+      "group": "tools",
+      "map": true,
+      "address": "community.antlerboy.com"
+    },
+    {
+      "title": "Customer-led transformation",
+      "url": "https://redquadrant.com/customer-led-transformation/",
+      "purpose": "Understand demand, citizen purpose, and the experience of using a service.",
+      "group": "consulting"
+    },
+    {
+      "title": "Systems change",
+      "url": "https://redquadrant.com/systems-change/",
+      "purpose": "Investigate a recurring problem across services and organisations.",
+      "group": "consulting"
+    },
+    {
+      "title": "System leadership",
+      "url": "https://redquadrant.com/system-leadership/",
+      "purpose": "Work on decisions and relationships across organisational boundaries.",
+      "group": "consulting"
+    },
+    {
+      "title": "Relational commissioning",
+      "url": "https://redquadrant.com/relational-commissioning/",
+      "purpose": "Reset a live commissioning relationship and the decisions around it.",
+      "group": "consulting"
+    },
+    {
+      "title": "Resource Optimisation: consultancy route",
+      "url": "https://redquadrant.com/resource-optimisation/",
+      "purpose": "Make work, effort, capacity, and resource choices visible.",
+      "group": "consulting"
+    },
+    {
+      "title": "Local government reorganisation",
+      "url": "https://redquadrant.com/lgrhub/",
+      "purpose": "Transition, service design, governance, and delivery.",
+      "group": "consulting"
+    },
+    {
+      "title": "Place-based public services",
+      "url": "https://redquadrant.com/place-based-public-services/",
+      "purpose": "Work with communities, services, and partners around a place.",
+      "group": "consulting"
+    },
+    {
+      "title": "Commissioning and public value",
+      "url": "https://redquadrant.com/commissioning/",
+      "purpose": "Commissioning strategy, outcomes, markets, and implementation.",
+      "group": "consulting"
+    },
+    {
+      "title": "Governance",
+      "url": "https://redquadrant.com/governance/",
+      "purpose": "Board effectiveness, decision rights, and assurance.",
+      "group": "consulting"
+    },
+    {
+      "title": "Adult social care",
+      "url": "https://redquadrant.com/adult-social-care/",
+      "purpose": "Commissioning, assurance, operating models, and improvement.",
+      "group": "consulting"
+    },
+    {
+      "title": "Children’s social care",
+      "url": "https://redquadrant.com/childrens-social-care/",
+      "purpose": "Service design, commissioning, and transformation.",
+      "group": "consulting"
+    },
+    {
+      "title": "Equality, diversity, and inclusion",
+      "url": "https://redquadrant.com/equality-diversity-inclusion/",
+      "purpose": "Review inclusion and its consequences for services and organisations.",
+      "group": "consulting"
+    },
+    {
+      "title": "Service review and operational improvement",
+      "url": "https://redquadrant.com/service-review/",
+      "purpose": "Examine demand, flow, costs, and opportunities to improve.",
+      "group": "consulting"
+    },
+    {
+      "title": "Culture and change",
+      "url": "https://redquadrant.com/methods/culture-and-change/",
+      "purpose": "Work with habits, trust, authority, and repeated experience.",
+      "group": "consulting"
+    },
+    {
+      "title": "Organisation design",
+      "url": "https://redquadrant.com/organisation-design/",
+      "purpose": "Align purpose, roles, authority, and working relationships.",
+      "group": "consulting"
+    },
+    {
+      "title": "Making change happen",
+      "url": "https://redquadrant.com/making-change-happen/",
+      "purpose": "Mobilise transformation and support implementation.",
+      "group": "consulting"
+    },
+    {
+      "title": "Rich pictures",
+      "url": "https://redquadrant.com/design/rich-pictures/",
+      "purpose": "Explore a situation and its competing perspectives visually.",
+      "group": "consulting"
+    },
+    {
+      "title": "Digital",
+      "url": "https://redquadrant.com/digital/",
+      "purpose": "Digital change grounded in services and the people using them.",
+      "group": "consulting"
+    },
+    {
+      "title": "Housing",
+      "url": "https://redquadrant.com/housing/",
+      "purpose": "Practical change and improvement in housing services.",
+      "group": "consulting"
+    },
+    {
+      "title": "Libraries",
+      "url": "https://redquadrant.com/libraries/",
+      "purpose": "Strategy, design, and improvement for library services.",
+      "group": "consulting"
+    },
+    {
+      "title": "Training and development",
+      "url": "https://redquadrant.com/training-and-development/",
+      "purpose": "Develop capability through practical work.",
+      "group": "consulting"
+    },
+    {
+      "title": "Transformation and change",
+      "url": "https://redquadrant.com/transformation-and-change/",
+      "purpose": "Service transformation and organisational change.",
+      "group": "consulting"
+    },
+    {
+      "title": "Customer focus",
+      "url": "https://redquadrant.com/customer-focus/",
+      "purpose": "Understand services from the customer’s point of view.",
+      "group": "consulting"
+    },
+    {
+      "title": "Consulting services",
+      "url": "https://redquadrant.com/services/",
+      "purpose": "The wider RedQuadrant service and sector portfolio.",
+      "group": "consulting"
+    },
+    {
+      "title": "Buying through frameworks",
+      "url": "https://redquadrant.com/frameworks/",
+      "purpose": "Routes for commissioning RedQuadrant’s work.",
+      "group": "consulting"
+    },
+    {
+      "title": "Commissioning, social care, and public value",
+      "url": "https://redquadrant.com/offers/commissioning-and-public-value/",
+      "purpose": "A starting-point review for a live commissioning challenge.",
+      "group": "consulting"
+    },
+    {
+      "title": "Governance, boards, and difficult judgement",
+      "url": "https://redquadrant.com/offers/governance-and-judgement/",
+      "purpose": "A working session around a consequential decision.",
+      "group": "consulting"
+    },
+    {
+      "title": "Transformation under pressure",
+      "url": "https://redquadrant.com/offers/transformation-under-pressure/",
+      "purpose": "Understand the work, choose changes, and build capacity to deliver.",
+      "group": "consulting"
+    },
+    {
+      "title": "Commissioning Academy",
+      "url": "https://www.publicservicetransformation.org/programmes/national-commissioning-academy/",
+      "purpose": "Applied learning for commissioners; see the programme for dates and fees.",
+      "group": "learning"
+    },
+    {
+      "title": "Systems Leadership Academy",
+      "url": "https://www.publicservicetransformation.org/systems-leadership-academy/",
+      "purpose": "Develop partnership practice through a live shared issue.",
+      "group": "learning"
+    },
+    {
+      "title": "Transformation Academies",
+      "url": "https://www.publicservicetransformation.org/transformation-academies/",
+      "purpose": "Build capability while doing the transformation work.",
+      "group": "learning"
+    },
+    {
+      "title": "Leading Transformation",
+      "url": "https://www.publicservicetransformation.org/programmes/leading-transformation/",
+      "purpose": "A 24-module repertoire for applied transformation practice.",
+      "group": "learning"
+    },
+    {
+      "title": "Commissioning health check",
+      "url": "https://www.publicservicetransformation.org/programmes/commissioning-health-check/",
+      "purpose": "A bounded diagnostic and leadership reset.",
+      "group": "learning"
+    },
+    {
+      "title": "Commissioning simulation",
+      "url": "https://www.publicservicetransformation.org/programmes/commissioning-simulation/",
+      "purpose": "Two days working through decisions and their consequences.",
+      "group": "learning"
+    },
+    {
+      "title": "Commissioning: a ten-step introduction",
+      "url": "https://www.publicservicetransformation.org/programmes/commissioning-ten-step-introduction/",
+      "purpose": "Three days building a shared commissioning foundation.",
+      "group": "learning"
+    },
+    {
+      "title": "Contract management development",
+      "url": "https://www.publicservicetransformation.org/programmes/contract-management-development/",
+      "purpose": "Applied judgement across the contract lifecycle.",
+      "group": "learning"
+    },
+    {
+      "title": "Place-based academies",
+      "url": "https://www.publicservicetransformation.org/programmes/place-based-academies/",
+      "purpose": "Bring a place’s partners together around live work.",
+      "group": "learning"
+    },
+    {
+      "title": "LGR Academy",
+      "url": "https://www.publicservicetransformation.org/lgr-academy/",
+      "purpose": "Develop the people who must make reorganisation work.",
+      "group": "learning"
+    },
+    {
+      "title": "Devolution Academy",
+      "url": "https://www.publicservicetransformation.org/devolution-academy/",
+      "purpose": "Learn through new responsibilities and cross-place decisions.",
+      "group": "learning"
+    },
+    {
+      "title": "Service Transformation Programme",
+      "url": "https://www.publicservicetransformation.org/programmes/service-transformation-programme/",
+      "purpose": "Practical learning delivered by Basis and accredited by PSTA.",
+      "group": "learning"
+    },
+    {
+      "title": "Accredited training",
+      "url": "https://www.publicservicetransformation.org/accredited-training/",
+      "purpose": "Discuss programme design, review, and recognition.",
+      "group": "learning"
+    },
+    {
+      "title": "PSTA news and practice",
+      "url": "https://www.publicservicetransformation.org/news/",
+      "purpose": "Programme news and practical learning notes.",
+      "group": "publishing"
+    },
+    {
+      "title": "PSTA programmes",
+      "url": "https://www.publicservicetransformation.org/programmes/",
+      "purpose": "Find the full programme portfolio.",
+      "group": "learning"
+    },
+    {
+      "title": "RedQuadrant Tool Shed",
+      "url": "https://redquadrant.com/toolshed/",
+      "purpose": "A supported practitioner cohort for applying methods to live work.",
+      "group": "tools",
+      "map": true
+    },
+    {
+      "title": "Benjamin’s Tool Shed",
+      "url": "https://antlerboy.com/toolshed/",
+      "purpose": "Practitioner learning, co-coaching, and mentoring.",
+      "group": "tools"
+    },
+    {
+      "title": "Systems events map",
+      "url": "https://events.transduction.systems/",
+      "purpose": "Worldwide systems, cybernetics, and complexity events, with maps and calendar subscriptions.",
+      "group": "tools",
+      "map": true
+    },
+    {
+      "title": "Systems thinking: a starting point",
+      "url": "https://transduction.systems/systems-thinking/",
+      "purpose": "An introduction and route into The Necessary Tangle.",
+      "group": "reference",
+      "map": true
+    },
+    {
+      "title": "Little RedQuadrant rules",
+      "url": "https://transduction.systems/little-redquadrant-rules/",
+      "purpose": "Short observations and provocations from practice.",
+      "group": "reference"
+    },
+    {
+      "title": "Breaking the Shell facilitator kit",
+      "url": "https://www.breakingtheshell.com/kit/",
+      "purpose": "Original facilitator wording, PowerPoint, Word, and PDF downloads.",
+      "group": "tools"
+    },
+    {
+      "title": "Breaking the Shell slides",
+      "url": "https://www.breakingtheshell.com/slides/",
+      "purpose": "The original slide words and images in a browser presentation.",
+      "group": "tools"
+    },
+    {
+      "title": "Breaking the Shell printable cards",
+      "url": "https://www.breakingtheshell.com/cards/",
+      "purpose": "Cards for running the exercise away from the screen.",
+      "group": "tools"
+    },
+    {
+      "title": "Community exercise facilitator guidance",
+      "url": "https://community.antlerboy.com/guidance/",
+      "purpose": "The original script and downloadable materials.",
+      "group": "tools"
+    },
+    {
+      "title": "Community exercise slides",
+      "url": "https://community.antlerboy.com/slides/",
+      "purpose": "Original slide wording, images, and downloadable PowerPoint.",
+      "group": "tools"
+    },
+    {
+      "title": "Large-group processes",
+      "url": "https://antlerboy.github.io/largegroupprocess/",
+      "purpose": "An annotated index of large-group, whole-system, and participatory methods.",
+      "group": "tools"
+    },
+    {
+      "title": "SysPrac26 calendar",
+      "url": "https://antlerboy.github.io/SYSPRAC26cal/",
+      "purpose": "The conference schedule with calendar downloads.",
+      "group": "tools"
+    },
+    {
+      "title": "RQ insights",
+      "url": "https://redquadrant.com/insights/",
+      "purpose": "Practice notes on services, systems, commissioning, and learning.",
+      "group": "publishing"
+    },
+    {
+      "title": "Government transformation",
+      "url": "https://redquadrant.com/insights/government-transformation/",
+      "purpose": "Writing on change in government and public services.",
+      "group": "publishing"
+    },
+    {
+      "title": "RQ newsletter",
+      "url": "https://redquadrant.com/newsletter/",
+      "purpose": "Subscribe to RedQuadrant’s updates.",
+      "group": "publishing"
+    },
+    {
+      "title": "Conversations",
+      "url": "https://antlerboy.com/conversations/",
+      "purpose": "The conversation series and their developing archives.",
+      "group": "publishing"
     },
     {
       "title": "Transduction conversations",
       "url": "https://antlerboy.com/conversations/transduction/",
-      "purpose": "Explore the conversation series and its developing archive."
+      "purpose": "The Transduction conversation archive.",
+      "group": "publishing"
     },
     {
       "title": "Joy and Work",
       "url": "https://antlerboy.com/conversations/joy-and-work/",
-      "purpose": "Conversations about working lives and what makes them worthwhile."
+      "purpose": "Conversations about working lives and what makes them worthwhile.",
+      "group": "publishing"
+    },
+    {
+      "title": "Public library",
+      "url": "https://antlerboy.com/library/",
+      "purpose": "Benjamin’s selected public writing, talks, tools, and reference materials.",
+      "group": "reference",
+      "map": true
+    },
+    {
+      "title": "Articles and essays",
+      "url": "https://antlerboy.com/library/articles-and-essays/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Catalogue",
+      "url": "https://antlerboy.com/library/catalogue/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Chosen Path collection",
+      "url": "https://antlerboy.com/library/chosen-path/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Commissioning",
+      "url": "https://antlerboy.com/library/commissioning/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Cybernetics is not the banana",
+      "url": "https://antlerboy.com/library/cybernetics-is-not-the-banana/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Facilitation and systems consulting",
+      "url": "https://antlerboy.com/library/facilitation-and-systems-consulting/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Five core practices",
+      "url": "https://antlerboy.com/library/five-core-practices/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Four dynamics",
+      "url": "https://antlerboy.com/library/four-dynamics/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Four quadrants",
+      "url": "https://antlerboy.com/library/four-quadrants/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Groups and communities",
+      "url": "https://antlerboy.com/library/groups-and-communities/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "John Seddon’s method",
+      "url": "https://antlerboy.com/library/john-seddon-method/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Large group processes",
+      "url": "https://antlerboy.com/library/large-group-processes/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Metacontextuality",
+      "url": "https://antlerboy.com/library/metacontextuality/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Outcomes and complexity",
+      "url": "https://antlerboy.com/library/outcomes-and-complexity/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Outsourcing",
+      "url": "https://antlerboy.com/library/outsourcing/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Podcasts",
+      "url": "https://antlerboy.com/library/podcasts/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Preprints and working papers",
+      "url": "https://antlerboy.com/library/preprints-and-working-papers/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Productive conversations",
+      "url": "https://antlerboy.com/library/productive-conversations/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Public service transformation",
+      "url": "https://antlerboy.com/library/public-service-transformation/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Publications",
+      "url": "https://antlerboy.com/library/publications/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Reading",
+      "url": "https://antlerboy.com/library/reading/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "RedQuadrant and PSTA reference",
+      "url": "https://antlerboy.com/library/redquadrant-psta-reference/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Relational public services",
+      "url": "https://antlerboy.com/library/relational-public-services/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Reports and surveys",
+      "url": "https://antlerboy.com/library/reports-and-surveys/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Requisite agility",
+      "url": "https://antlerboy.com/library/requisite-agility/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Search",
+      "url": "https://antlerboy.com/library/search/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "State of transformation",
+      "url": "https://antlerboy.com/library/state-of-transformation/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "SysCoI collection",
+      "url": "https://antlerboy.com/library/syscoi/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Systems convening",
+      "url": "https://antlerboy.com/library/systems-convening/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Systems leadership change practice",
+      "url": "https://antlerboy.com/library/systems-leadership-change-practice/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Talks and sessions",
+      "url": "https://antlerboy.com/library/talks-and-sessions/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "VECIT",
+      "url": "https://antlerboy.com/library/vecit/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Viable System Model",
+      "url": "https://antlerboy.com/library/viable-system-model/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Videos",
+      "url": "https://antlerboy.com/library/videos/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Visual and social publications",
+      "url": "https://antlerboy.com/library/visual-and-social-publications/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Visual models",
+      "url": "https://antlerboy.com/library/visual-models/",
+      "purpose": "Explore this collection in the public library.",
+      "group": "library"
+    },
+    {
+      "title": "Medium",
+      "url": "https://medium.com/@antlerboy",
+      "purpose": "Essays and other writing published on Medium.",
+      "group": "elsewhere"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/antlerboy",
+      "purpose": "Benjamin’s professional posts and profile.",
+      "group": "elsewhere"
+    },
+    {
+      "title": "Transduction / Transformation newsletter",
+      "url": "https://www.linkedin.com/newsletters/transduction-transformation-6867141552511295488/",
+      "purpose": "The LinkedIn newsletter.",
+      "group": "elsewhere"
+    },
+    {
+      "title": "Bluesky",
+      "url": "https://bsky.app/profile/antlerboy.com",
+      "purpose": "Posts and conversations on Bluesky.",
+      "group": "elsewhere"
+    },
+    {
+      "title": "Mastodon",
+      "url": "https://mastodon.social/@antlerboy",
+      "purpose": "Posts and conversations on Mastodon.",
+      "group": "elsewhere"
+    },
+    {
+      "title": "X / Twitter",
+      "url": "https://www.twitter.com/antlerboy",
+      "purpose": "The @antlerboy profile.",
+      "group": "elsewhere"
+    },
+    {
+      "title": "Commissioning and innovation",
+      "url": "https://www.publicservicetransformation.org/programmes/commissioning-and-innovation/",
+      "purpose": "Develop commissioning practice alongside innovation.",
+      "group": "learning"
+    },
+    {
+      "title": "In-house programmes",
+      "url": "https://www.publicservicetransformation.org/in-house/",
+      "purpose": "Learning designed for an organisation or partnership.",
+      "group": "learning"
+    },
+    {
+      "title": "PSTA community",
+      "url": "https://www.publicservicetransformation.org/community/",
+      "purpose": "Connect with the PSTA’s learning community.",
+      "group": "learning"
+    },
+    {
+      "title": "PSTA partners",
+      "url": "https://www.publicservicetransformation.org/partners/",
+      "purpose": "The organisations contributing to PSTA programmes and practice.",
+      "group": "learning"
+    },
+    {
+      "title": "PSTA insights",
+      "url": "https://www.publicservicetransformation.org/insights/",
+      "purpose": "Learning, commissioning, and public-service practice.",
+      "group": "publishing"
+    },
+    {
+      "title": "PSTA tools",
+      "url": "https://www.publicservicetransformation.org/tools/",
+      "purpose": "Practical tools for commissioning and public services.",
+      "group": "tools"
+    },
+    {
+      "title": "Commissioning compass",
+      "url": "https://www.publicservicetransformation.org/tools/commissioning-compass/",
+      "purpose": "Explore commissioning questions and choices.",
+      "group": "tools"
+    },
+    {
+      "title": "Compass v2 beta",
+      "url": "https://www.publicservicetransformation.org/tools/compass-v2-beta/",
+      "purpose": "The developing version of the commissioning compass.",
+      "group": "tools"
+    },
+    {
+      "title": "Smart compass",
+      "url": "https://www.publicservicetransformation.org/tools/smart-compass/",
+      "purpose": "A further route through commissioning questions.",
+      "group": "tools"
+    },
+    {
+      "title": "Adult social care options appraisal",
+      "url": "https://www.publicservicetransformation.org/tools/adult-social-care-options-appraisal/",
+      "purpose": "Work through options for adult social care.",
+      "group": "tools"
+    },
+    {
+      "title": "RedQuadrant Christmas quiz",
+      "url": "https://antlerboy.github.io/RedQuadrantChristmasquiz/",
+      "purpose": "The public RedQuadrant quiz.",
+      "group": "experiments"
+    },
+    {
+      "title": "Star-burst: ZX81",
+      "url": "https://antlerboy.github.io/GrokstarburstZX81/",
+      "purpose": "A browser recreation of the ZX81 game.",
+      "group": "experiments"
     }
+  ],
+  "aliases": [
+    {
+      "domain": "bentaylor.com",
+      "destination": "https://antlerboy.com/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "bentaylor.me.uk",
+      "destination": "https://antlerboy.com/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "breakingtheshell.co.uk",
+      "destination": "https://www.breakingtheshell.com/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "commissioning.academy",
+      "destination": "https://www.publicservicetransformation.org/programmes/national-commissioning-academy/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "customerledtransformation.com",
+      "destination": "https://redquadrant.com/customer-led-transformation/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "govtransformation.org",
+      "destination": "https://redquadrant.com/insights/government-transformation/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "joyandwork.co.uk",
+      "destination": "https://antlerboy.com/conversations/joy-and-work/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "joyandwork.com",
+      "destination": "https://antlerboy.com/conversations/joy-and-work/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "publicservicetransformation.academy",
+      "destination": "https://www.publicservicetransformation.org/programmes/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "publicservicetransformation.com",
+      "destination": "https://www.publicservicetransformation.org/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "quadrantresourcing.co.uk",
+      "destination": "https://quadrantresourcing.com/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquadrant.blog",
+      "destination": "https://redquadrant.com/insights/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquadrant.co.uk",
+      "destination": "https://redquadrant.com/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquadrantacademy.co.uk",
+      "destination": "https://www.publicservicetransformation.org/programmes/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquadrantacademy.com",
+      "destination": "https://www.publicservicetransformation.org/programmes/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquadrantacademy.net",
+      "destination": "https://www.publicservicetransformation.org/programmes/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquadrantacademy.org",
+      "destination": "https://www.publicservicetransformation.org/programmes/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquadrantculture.com",
+      "destination": "https://redquadrant.com/methods/culture-and-change/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquadrantinsights.co.uk",
+      "destination": "https://redquadrant.com/insights/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquadrantrichpictures.co.uk",
+      "destination": "https://redquadrant.com/design/rich-pictures/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "redquandrant.com",
+      "destination": "https://redquadrant.com/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "resource-optimisation.com",
+      "destination": "https://resourceoptimisation.com/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "systemleadership.academy",
+      "destination": "https://www.publicservicetransformation.org/systems-leadership-academy/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "systemleadership.co.uk",
+      "destination": "https://redquadrant.com/system-leadership/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "systemleadership.com",
+      "destination": "https://redquadrant.com/system-leadership/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "systemsleadership.academy",
+      "destination": "https://www.publicservicetransformation.org/systems-leadership-academy/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "systemsleadership.co.uk",
+      "destination": "https://redquadrant.com/system-leadership/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "systemsthinking.info",
+      "destination": "https://transduction.systems/systems-thinking/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "transformationacademy.co.uk",
+      "destination": "https://www.publicservicetransformation.org/transformation-academies/",
+      "status": "Destination listed; redirect not verified in this update."
+    },
+    {
+      "domain": "transformationacademy.org",
+      "destination": "https://www.publicservicetransformation.org/transformation-academies/",
+      "status": "Destination listed; redirect not verified in this update."
+    }
+  ],
+  "reserved": [
+    {
+      "domain": "redquadrantsecure.com",
+      "purpose": "Defensive registration; no public website."
+    },
+    {
+      "domain": "breakingtheshell.biz",
+      "purpose": "Legacy registration; no current public destination confirmed."
+    }
+  ],
+  "sources": [
+    "Existing Greebling publication, version 5",
+    "3 September 2026 web system and domain register",
+    "6 September 2026 GitHub source routes for RedQuadrant, PSTA, and Antlerboy",
+    "Sites public publication and custom-domain records, 6 September 2026"
   ]
 }
