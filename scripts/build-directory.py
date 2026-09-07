@@ -41,7 +41,7 @@ for key,title in groups:
         parts.append(f'<li><h4>{link(s["url"],s["title"])}</h4><p class="surface-url">{link(s["url"],display(s["url"]))}</p>')
         if key!='library': parts.append(f'<p>{esc(s["purpose"])}</p>')
         if s.get('note'):
-            parts.append(f'<p class="domain-note">{link("https://"+s["address"]+"/",s["address"])} — {esc(s["note"])}</p>')
+            parts.append(f'<p class="domain-note">{link("https://"+s["address"]+"/",s["address"])}; {esc(s["note"])}</p>')
         parts.append('</li>')
     parts.append('</ul></section>')
 parts.append('<section class="surface-group" id="campaign-addresses" aria-labelledby="campaign-title"><h3 id="campaign-title">Campaign addresses and shortcuts</h3><p>These names lead into the same body of work. Both the address and its intended destination are shown. A listed destination does not confirm that the redirect is working.</p><div class="alias-table-wrap"><table class="alias-table"><thead><tr><th scope="col">Address</th><th scope="col">Destination</th></tr></thead><tbody>')
@@ -49,7 +49,7 @@ for a in data['aliases']:
     parts.append('<tr><th scope="row">'+link('https://'+a['domain']+'/',a['domain'])+'</th><td>'+link(a['destination'],display(a['destination']))+'</td></tr>')
 parts.append('</tbody></table></div><details class="reserved"><summary>Other registered names</summary><ul>')
 for a in data['reserved']:
-    parts.append('<li><b>'+esc(a['domain'])+'</b> — '+esc(a['purpose'])+'</li>')
+    parts.append('<li><b>'+esc(a['domain'])+'</b>; '+esc(a['purpose'])+'</li>')
 parts.append('</ul></details></section><p class="inventory-date">Directory updated 6 September 2026.</p></section>')
 template=(ROOT/'templates/index.html').read_text()
 template=template.replace('<header>Greebling</header>','<a class="skip-link" href="#web-surfaces">Skip to the web directory</a><header><a class="brand" href="/">Greebling</a><nav aria-label="Main navigation"><a href="#web-surfaces">All websites and microsites</a><a href="#reading-title">Greebling writing</a></nav></header>')
