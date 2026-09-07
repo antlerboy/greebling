@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "groups": [
     [
       "main",
@@ -16,6 +16,10 @@
     [
       "tools",
       "Exercises, tools, and events"
+    ],
+    [
+      "practice",
+      "Systems methods practice"
     ],
     [
       "publishing",
@@ -833,6 +837,289 @@
       "purpose": "Systems leadership, the academy, and customer-led transformation",
       "group": "reference",
       "map": false
+    },
+    {
+      "title": "Systemic systems methods practice",
+      "url": "https://transduction.systems/systems-thinking/practice/",
+      "purpose": "Free exercises, worked examples, and answers for technical dry runs of systems methods.",
+      "group": "practice",
+      "map": true
+    },
+    {
+      "title": "Standards coverage and limits",
+      "url": "https://transduction.systems/systems-thinking/practice/coverage/",
+      "purpose": "Editorial mapping to the public SCiO framework and apprenticeship standard, with explicit limits.",
+      "group": "practice"
+    },
+    {
+      "title": "Checked practice resources",
+      "url": "https://transduction.systems/systems-thinking/practice/resources/",
+      "purpose": "Free and paid learning routes, labelled by resource type, access, and review status.",
+      "group": "practice"
+    },
+    {
+      "title": "Task sheets without answers",
+      "url": "https://transduction.systems/systems-thinking/practice/worksheets/",
+      "purpose": "Printable tasks for an independent attempt or work with a practice partner.",
+      "group": "practice"
+    },
+    {
+      "title": "Worked comparisons and answer keys",
+      "url": "https://transduction.systems/systems-thinking/practice/answers/",
+      "purpose": "Worked steps and check questions, while preserving room for defensible alternatives.",
+      "group": "practice"
+    },
+    {
+      "title": "Using the practice pack",
+      "url": "https://transduction.systems/systems-thinking/practice/tutor-notes/",
+      "purpose": "Guidance for learners, tutors, and practice partners.",
+      "group": "practice"
+    },
+    {
+      "title": "Systems methods practice: library edition",
+      "url": "https://antlerboy.com/library/systems-methods-practice/",
+      "purpose": "Library introduction, citation, and routes into the complete practice pack.",
+      "group": "library"
+    },
+    {
+      "title": "Canon and lineage",
+      "url": "https://transduction.systems/canon-and-lineage/",
+      "purpose": "Review who gets to count as a systems thinker and how lineages become visible.",
+      "group": "reference"
+    },
+    {
+      "title": "Nigel Williams contribution",
+      "url": "https://transduction.systems/contributors/nigel-williams/",
+      "purpose": "Nigel Williams's contribution to the counted-map work.",
+      "group": "reference"
+    },
+    {
+      "title": "The Complexity Podcast corpus",
+      "url": "https://transduction.systems/corpora/complexity-podcast/",
+      "purpose": "A bounded corpus view of The Complexity Podcast.",
+      "group": "reference"
+    },
+    {
+      "title": "Early cybernetics reading lists",
+      "url": "https://transduction.systems/corpora/early-cybernetics/",
+      "purpose": "Read cybernetics through contemporary and early reading lists.",
+      "group": "reference"
+    },
+    {
+      "title": "Named practitioner and institution coverage",
+      "url": "https://transduction.systems/coverage/named/",
+      "purpose": "Coverage account for named practitioners and institutions.",
+      "group": "reference"
+    },
+    {
+      "title": "unFIX 32-concept coverage",
+      "url": "https://transduction.systems/coverage/unfix-32/",
+      "purpose": "Coverage account for the unFIX 32-concept set.",
+      "group": "reference"
+    },
+    {
+      "title": "Prior maps",
+      "url": "https://transduction.systems/prior-maps/",
+      "purpose": "Keep earlier maps and their different claims visible.",
+      "group": "reference"
+    },
+    {
+      "title": "Map of the Complexity Sciences",
+      "url": "https://transduction.systems/prior-maps/castellani/",
+      "purpose": "Brian Castellani's map retained as a distinct comparator layer.",
+      "group": "reference"
+    },
+    {
+      "title": "The Counted Map",
+      "url": "https://transduction.systems/prior-maps/counted-map/",
+      "purpose": "A counted signal map retained without treating frequency as truth.",
+      "group": "reference"
+    },
+    {
+      "title": "Map of Systemic Evolution",
+      "url": "https://transduction.systems/prior-maps/systemic-evolution/",
+      "purpose": "A permissioned prior map retained with its own meaning and limits.",
+      "group": "reference"
+    },
+    {
+      "title": "Reading-list depth",
+      "url": "https://transduction.systems/reading-list.html",
+      "purpose": "Coverage of the systems, complexity, and cybernetics reading list.",
+      "group": "reference"
+    },
+    {
+      "title": "Submissions and responses",
+      "url": "https://transduction.systems/submissions/",
+      "purpose": "Public suggestions, corrections, challenges, and responses.",
+      "group": "reference"
+    },
+    {
+      "title": "The Necessary Tangle release 0.22",
+      "url": "https://transduction.systems/updates/0.22/",
+      "purpose": "What changed in release 0.22 and what comes next.",
+      "group": "reference"
+    },
+    {
+      "title": "Systems events submissions",
+      "url": "https://transduction.systems/events/submissions.html",
+      "purpose": "Public queue of submitted systems-event links.",
+      "group": "tools"
+    },
+    {
+      "title": "Systems concepts: make your boundary inspectable",
+      "url": "https://transduction.systems/systems-thinking/practice/systems-concepts/",
+      "purpose": "Construct and challenge two systems-of-interest descriptions without confusing your model with the situation.",
+      "group": "practice"
+    },
+    {
+      "title": "Systems laws: test variety, feedback and local optimisation",
+      "url": "https://transduction.systems/systems-thinking/practice/systems-laws/",
+      "purpose": "Use a small disturbance-response model to test a claim about regulation.",
+      "group": "practice"
+    },
+    {
+      "title": "Transposing theory: move up to a pattern and back down",
+      "url": "https://transduction.systems/systems-thinking/practice/transposing-theory/",
+      "purpose": "Test a structural analogy rather than importing a solution because two situations sound alike.",
+      "group": "practice"
+    },
+    {
+      "title": "Soft Systems Methodology: build a model that follows its purpose",
+      "url": "https://transduction.systems/systems-thinking/practice/soft-systems/",
+      "purpose": "Move from a messy situation through purposeful perspectives to a logically defensible activity model and comparison.",
+      "group": "practice"
+    },
+    {
+      "title": "System Dynamics: build, calculate and challenge a queue model",
+      "url": "https://transduction.systems/systems-thinking/practice/system-dynamics/",
+      "purpose": "Distinguish causal-loop reasoning from an executable stock-flow model and verify a small model by hand.",
+      "group": "practice"
+    },
+    {
+      "title": "Viable System Model: diagnose functions and channels",
+      "url": "https://transduction.systems/systems-thinking/practice/viable-system-model/",
+      "purpose": "Choose a recursion, identify operational units, and test management functions without turning the VSM into an organisation chart.",
+      "group": "practice"
+    },
+    {
+      "title": "Critical Systems Heuristics: inspect all twelve boundary categories",
+      "url": "https://transduction.systems/systems-thinking/practice/critical-systems-heuristics/",
+      "purpose": "Build an is/ought boundary critique and show how a change in boundary alters a judgement.",
+      "group": "practice"
+    },
+    {
+      "title": "Confrontation Analysis: separate positions, options and credibility",
+      "url": "https://transduction.systems/systems-thinking/practice/confrontation-analysis/",
+      "purpose": "Build a small options table and identify what would make a joint commitment credible.",
+      "group": "practice"
+    },
+    {
+      "title": "INFORMED Group Dynamics: investigate the distinctions behind a decision",
+      "url": "https://transduction.systems/systems-thinking/practice/informed-group-dynamics/",
+      "purpose": "Elicit contrasting meanings, make a small reflective map, and revise an inference about another person's position.",
+      "group": "practice"
+    },
+    {
+      "title": "Interactive Management: construct a small interpretive structural model",
+      "url": "https://transduction.systems/systems-thinking/practice/interactive-management/",
+      "purpose": "Use a precise relation, a small adjacency matrix and transitive reasoning to structure a set of enabling conditions.",
+      "group": "practice"
+    },
+    {
+      "title": "Interactive planning: design the service you would choose now",
+      "url": "https://transduction.systems/systems-thinking/practice/interactive-planning/",
+      "purpose": "Distinguish an idealised design from a forecast, then work back to feasible changes and learning.",
+      "group": "practice"
+    },
+    {
+      "title": "Mosaic transformation and bubble strategy: sequence changes you can sustain",
+      "url": "https://transduction.systems/systems-thinking/practice/mosaic-transformation/",
+      "purpose": "Test a change sequence against available capacity, released capacity, dependencies and a protected experiment's interfaces.",
+      "group": "practice"
+    },
+    {
+      "title": "Multi-methodology: justify the move from one method to another",
+      "url": "https://transduction.systems/systems-thinking/practice/multi-methodology/",
+      "purpose": "Design a short inquiry in which each method answers a different question and its output is translated carefully into the next.",
+      "group": "practice"
+    },
+    {
+      "title": "Patterns of Strategy: model dependence, fit and timing",
+      "url": "https://transduction.systems/systems-thinking/practice/patterns-of-strategy/",
+      "purpose": "Analyse a strategic relationship and test a proposed move against relative dependence and response time.",
+      "group": "practice"
+    },
+    {
+      "title": "Socio-Technical Systems: redesign the work and technology together",
+      "url": "https://transduction.systems/systems-thinking/practice/socio-technical-systems/",
+      "purpose": "Find where variation is handled and design a jointly workable social and technical arrangement.",
+      "group": "practice"
+    },
+    {
+      "title": "Syntegration: test the communication structure before the event",
+      "url": "https://transduction.systems/systems-thinking/practice/syntegration/",
+      "purpose": "Understand overlapping participation and repeated cross-topic learning through a small structural rehearsal.",
+      "group": "practice"
+    },
+    {
+      "title": "SODA: build a means-ends map without erasing disagreement",
+      "url": "https://transduction.systems/systems-thinking/practice/soda/",
+      "purpose": "Turn supplied statements into contrasting constructs and a traceable means-ends map.",
+      "group": "practice"
+    },
+    {
+      "title": "Fractal Enterprise Model: alternate processes and the assets they depend on",
+      "url": "https://transduction.systems/systems-thinking/practice/fractal-enterprise-model/",
+      "purpose": "Build a small process-asset model and identify a neglected asset-management dependency.",
+      "group": "practice"
+    },
+    {
+      "title": "Critical social learning: build a learning relationship across boundaries",
+      "url": "https://transduction.systems/systems-thinking/practice/critical-social-learning/",
+      "purpose": "Design a small collective inquiry that can change both action and the assumptions behind it.",
+      "group": "practice"
+    },
+    {
+      "title": "Service systems: follow demand and distinguish activity from resolution",
+      "url": "https://transduction.systems/systems-thinking/practice/service-systems/",
+      "purpose": "Classify a small demand sample, trace end-to-end work, and design a prediction-led test.",
+      "group": "practice"
+    },
+    {
+      "title": "Participative inquiry: test who your evidence leaves out",
+      "url": "https://transduction.systems/systems-thinking/practice/participative-inquiry/",
+      "purpose": "Build an engagement and evidence plan that does not confuse influence with the right to be heard.",
+      "group": "practice"
+    },
+    {
+      "title": "Futures and probes: test robustness without pretending to predict",
+      "url": "https://transduction.systems/systems-thinking/practice/futures-and-probes/",
+      "purpose": "Compare options across explicit scenarios, then design more than one bounded learning probe.",
+      "group": "practice"
+    },
+    {
+      "title": "Ethics and power: make an intervention's authority and effects explicit",
+      "url": "https://transduction.systems/systems-thinking/practice/ethics-and-power/",
+      "purpose": "Distinguish permission, participation and legitimacy, then design a reversible intervention with an accessible challenge route.",
+      "group": "practice"
+    },
+    {
+      "title": "Evaluation and reflexivity: test the claim you are tempted to make",
+      "url": "https://transduction.systems/systems-thinking/practice/evaluation-and-reflexivity/",
+      "purpose": "Distinguish a measured change from a causal claim and use evaluation to revise both intervention and framing.",
+      "group": "practice"
+    },
+    {
+      "title": "Systemic constellations: use a spatial representation as a hypothesis",
+      "url": "https://transduction.systems/systems-thinking/practice/systemic-constellations/",
+      "purpose": "Explore a fictional organisational relationship with objects, then test what the representation does and does not establish.",
+      "group": "practice"
+    },
+    {
+      "title": "Systemic conversations: expose inference and repair a broken commitment",
+      "url": "https://transduction.systems/systems-thinking/practice/systemic-conversations/",
+      "purpose": "Separate data from inference and turn an ambiguous request into a discussable commitment.",
+      "group": "practice"
     }
   ],
   "aliases": [
@@ -996,6 +1283,8 @@
     "Existing Greebling publication, version 5",
     "3 September 2026 web system and domain register",
     "6 September 2026 GitHub source routes for RedQuadrant, PSTA, and Antlerboy",
-    "Sites public publication and custom-domain records, 6 September 2026"
+    "Sites public publication and custom-domain records, 6 September 2026",
+    "The Necessary Tangle public routes and systems practice pack, checked 7 September 2026",
+    "Antlerboy public library systems-methods-practice edition, checked 7 September 2026"
   ]
 }

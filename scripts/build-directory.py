@@ -2,7 +2,6 @@
 import html
 import json
 from pathlib import Path
-from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 data = json.loads((ROOT/'dist/domains.json').read_text())
@@ -14,24 +13,38 @@ def link(url, label):
 
 groups=data['groups']
 surfaces=data['surfaces']
-mapped=[s for s in surfaces if s.get('map')]
-height=((len(mapped)+2)//3)*138+28
-svg=[f'<div class="map"><svg viewBox="0 0 1080 {height}" role="img" aria-labelledby="map-title map-desc"><title id="map-title">Connected websites, tools, and reference</title><desc id="map-desc">{len(mapped)} principal destinations. Every destination, specialist page, and campaign address is listed with its URL in the directory below.</desc>']
-for i,s in enumerate(mapped):
-    x=22+(i%3)*356; y=22+(i//3)*138
-    if i%3<2 and i+1<len(mapped): svg.append(f'<path d="M{x+328} {y+52}h28" stroke="#b7b9c8" stroke-width="2"/>')
-    if i+3<len(mapped): svg.append(f'<path d="M{x+164} {y+104}v34" stroke="#b7b9c8" stroke-width="2"/>')
-    title=s['title']
-    words=title.split(); lines=['']
-    for w in words:
-        if len(lines[-1])+len(w)>28: lines.append(w)
-        else: lines[-1]+=(' ' if lines[-1] else '')+w
-    text=''.join(f'<tspan x="{x+16}" dy="{0 if n==0 else 25}">{esc(line)}</tspan>' for n,line in enumerate(lines))
-    label=s.get('address') or display(s['url'])
-    if len(label)>39: label=urlsplit(s['url']).hostname
-    svg.append(f'<a href="{esc(s["url"],quote=True)}" aria-label="{esc(title,quote=True)}"><rect x="{x}" y="{y}" width="328" height="104" rx="3" fill="white" stroke="#413383" stroke-width="2"/><text x="{x+16}" y="{y+31}" font-size="19" font-weight="bold" fill="#201a3e">{text}</text><text x="{x+16}" y="{y+85}" font-size="14" fill="#413383">{esc(label)}</text></a>')
-svg.append('</svg></div>')
-parts=[f'<section id="web-surfaces" aria-labelledby="web-title"><p class="eyebrow">The connected work</p><h2 id="web-title">Websites, microsites, and useful entrances</h2><p class="lead">{len(surfaces)} destinations across consulting, learning, writing, tools, and reference, plus {len(data["aliases"])} campaign addresses and shortcuts.</p>',''.join(svg),'<nav class="directory-nav" aria-label="Directory sections">']
+map_excluded_groups={'library','elsewhere'}
+mapped=[
+    s for s in surfaces
+    if s.get('map') is True
+    or (s.get('map') is not False and s['group'] not in map_excluded_groups)
+]
+map_clusters=[]
+for key,title in groups:
+    entries=[s for s in mapped if s['group']==key]
+    if not entries:
+        continue
+    items=[]
+    for s in entries:
+        address=s.get('address') or display(s['url'])
+        items.append(
+            f'<li>{link(s["url"],s["title"])}'
+            f'<span>{esc(address)}</span></li>'
+        )
+    map_clusters.append(
+        f'<section class="map-cluster map-{esc(key)}" aria-labelledby="map-{esc(key)}-title">'
+        f'<h3 id="map-{esc(key)}-title">{link("#"+key,title)} '
+        f'<span class="map-count">{len(entries)}</span></h3>'
+        f'<ul>{"".join(items)}</ul></section>'
+    )
+map_html=(
+    f'<div class="map-summary"><h3>The whole public estate</h3>'
+    f'<p>{len(mapped)} substantial sites, microsites, tools, exercises, programmes, '
+    f'offers, and reference surfaces, grouped by what they are for. '
+    f'Library subdivisions and external publishing profiles remain in the full directory below.</p></div>'
+    f'<div class="estate-map">{"".join(map_clusters)}</div>'
+)
+parts=[f'<section id="web-surfaces" aria-labelledby="web-title"><p class="eyebrow">The connected work</p><h2 id="web-title">Websites, microsites, and useful entrances</h2><p class="lead">{len(surfaces)} destinations across consulting, learning, writing, tools, and reference, plus {len(data["aliases"])} campaign addresses and shortcuts.</p>',map_html,'<nav class="directory-nav" aria-label="Directory sections">']
 parts.extend(link('#'+key,title) for key,title in groups)
 parts.extend([link('#campaign-addresses','Campaign addresses'),'</nav>'])
 for key,title in groups:
@@ -50,7 +63,10 @@ for a in data['aliases']:
 parts.append('</tbody></table></div><details class="reserved"><summary>Other registered names</summary><ul>')
 for a in data['reserved']:
     parts.append('<li><b>'+esc(a['domain'])+'</b>; '+esc(a['purpose'])+'</li>')
-parts.append('</ul></details></section><p class="inventory-date">Directory updated 6 September 2026.</p></section>')
+updated_year,updated_month,updated_day=data['updated'].split('-')
+month_names={'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'December'}
+updated_label=f'{int(updated_day)} {month_names[updated_month]} {updated_year}'
+parts.append(f'</ul></details></section><p class="inventory-date">Directory updated {updated_label}.</p></section>')
 template=(ROOT/'templates/index.html').read_text()
 template=template.replace('<header>Greebling</header>','<a class="skip-link" href="#web-surfaces">Skip to the web directory</a><header><a class="brand" href="/">Greebling</a><nav aria-label="Main navigation"><a href="#web-surfaces">All websites and microsites</a><a href="#reading-title">Greebling writing</a></nav></header>')
 template=template.replace('Greebling writing and a map of Benjamin P Taylor’s connected public work.','Greebling writing and the directory of Benjamin P Taylor, RedQuadrant, and PSTA websites, microsites, tools, and publications.')
