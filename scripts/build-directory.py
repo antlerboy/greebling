@@ -69,7 +69,7 @@ updated_label=f'{int(updated_day)} {month_names[updated_month]} {updated_year}'
 parts.append(f'</ul></details></section><p class="inventory-date">Directory updated {updated_label}.</p></section>')
 template=(ROOT/'templates/index.html').read_text(encoding='utf-8')
 template=template.replace('<header>Greebling</header>','<a class="skip-link" href="#web-surfaces">Skip to the web directory</a><header><a class="brand" href="/">Greebling</a><nav aria-label="Main navigation"><a href="#web-surfaces">All websites and microsites</a><a href="#reading-title">Greebling writing</a></nav></header>')
-template=template.replace('Greebling writing and a map of Benjamin P Taylor’s connected public work.','Greebling writing and the directory of Benjamin P Taylor, RedQuadrant, and PSTA websites, microsites, tools, and publications.')
+template=template.replace('Greebling writing and a map of Benjamin P Taylor’s connected public work.','Greebling writing and the directory of Benjamin P Taylor, RedQuadrant, and the PSTA websites, microsites, tools, and publications.')
 template=template.replace('Greebling | Essays and connections','Greebling | Writing, websites, and microsites')
 roles = data.get('stewardship', {}).get('coreRoles', [])
 role_html = '<section class="surface-group" id="start-here"><p class="eyebrow">Where to start</p><h2>Main websites and their purpose</h2><ul class="directory surface-directory">'
