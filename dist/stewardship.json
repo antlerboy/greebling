@@ -1,0 +1,47 @@
+{
+  "version": "2026-11-05",
+  "purpose": "Keep each route useful and its public promises current. Publication status does not establish user adoption or impact.",
+  "coreRoles": [
+    {
+      "title": "Antlerboy",
+      "url": "https://antlerboy.com/",
+      "purpose": "Benjamin’s public work and practical starting points",
+      "stewardRole": "Benjamin P Taylor"
+    },
+    {
+      "title": "RedQuadrant",
+      "url": "https://redquadrant.com/",
+      "purpose": "Commissioned public-service inquiry, design, and implementation",
+      "stewardRole": "RedQuadrant"
+    },
+    {
+      "title": "PSTA",
+      "url": "https://publicservicetransformation.org/",
+      "purpose": "Learning applied to live public-service work",
+      "stewardRole": "Public Service Transformation Academy"
+    },
+    {
+      "title": "Chosen Path",
+      "url": "https://chosen-path.org/",
+      "purpose": "Authored essays, arguments, and working notes",
+      "stewardRole": "Benjamin P Taylor"
+    },
+    {
+      "title": "SysCoI",
+      "url": "https://stream.syscoi.com/",
+      "purpose": "Open curation and discussion across systems, cybernetics, and complexity",
+      "stewardRole": "Systems Community of Inquiry"
+    },
+    {
+      "title": "The Necessary Tangle",
+      "url": "https://transduction.systems/",
+      "purpose": "Sourced reference, connections, and systems practice resources",
+      "stewardRole": "Benjamin P Taylor"
+    }
+  ],
+  "statusDefinitions": {
+    "maintained route": "A continuing public entrance; content review is recorded separately.",
+    "published reference": "Published material retained for access and citation.",
+    "experimental": "An experiment, without a promise of continuing development."
+  }
+}

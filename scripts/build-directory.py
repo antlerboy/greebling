@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-data = json.loads((ROOT/'dist/domains.json').read_text())
+data = json.loads((ROOT/'dist/domains.json').read_text(encoding='utf-8'))
 esc = html.escape
 def display(url):
     return url.removeprefix('https://').rstrip('/')
@@ -67,9 +67,14 @@ updated_year,updated_month,updated_day=data['updated'].split('-')
 month_names={'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'December'}
 updated_label=f'{int(updated_day)} {month_names[updated_month]} {updated_year}'
 parts.append(f'</ul></details></section><p class="inventory-date">Directory updated {updated_label}.</p></section>')
-template=(ROOT/'templates/index.html').read_text()
+template=(ROOT/'templates/index.html').read_text(encoding='utf-8')
 template=template.replace('<header>Greebling</header>','<a class="skip-link" href="#web-surfaces">Skip to the web directory</a><header><a class="brand" href="/">Greebling</a><nav aria-label="Main navigation"><a href="#web-surfaces">All websites and microsites</a><a href="#reading-title">Greebling writing</a></nav></header>')
 template=template.replace('Greebling writing and a map of Benjamin P Taylor’s connected public work.','Greebling writing and the directory of Benjamin P Taylor, RedQuadrant, and PSTA websites, microsites, tools, and publications.')
 template=template.replace('Greebling | Essays and connections','Greebling | Writing, websites, and microsites')
-(ROOT/'dist/index.html').write_text(template.replace('<!-- WEB_DIRECTORY -->','\n'.join(parts)))
+roles = data.get('stewardship', {}).get('coreRoles', [])
+role_html = '<section class="surface-group" id="start-here"><p class="eyebrow">Where to start</p><h2>Different places for different work</h2><ul class="directory surface-directory">'
+for role in roles:
+    role_html += '<li><h3>' + link(role['url'],role['title']) + '</h3><p>' + esc(role['purpose']) + '</p></li>'
+role_html += '</ul><p>Specialist tools, collections, and experiments remain in the directory. <a href="stewardship.json">Read the public stewardship record</a>.</p></section>'
+(ROOT/'dist/index.html').write_text(template.replace('<!-- ESTATE_ROLES -->', role_html).replace('<!-- WEB_DIRECTORY -->','\n'.join(parts)), encoding='utf-8')
 print(f'Rendered {len(mapped)} map destinations, {len(surfaces)} directory entries, and {len(data["aliases"])} campaign addresses.')
