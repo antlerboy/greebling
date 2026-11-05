@@ -72,7 +72,7 @@ template=template.replace('<header>Greebling</header>','<a class="skip-link" hre
 template=template.replace('Greebling writing and a map of Benjamin P Taylor’s connected public work.','Greebling writing and the directory of Benjamin P Taylor, RedQuadrant, and PSTA websites, microsites, tools, and publications.')
 template=template.replace('Greebling | Essays and connections','Greebling | Writing, websites, and microsites')
 roles = data.get('stewardship', {}).get('coreRoles', [])
-role_html = '<section class="surface-group" id="start-here"><p class="eyebrow">Where to start</p><h2>Different places for different work</h2><ul class="directory surface-directory">'
+role_html = '<section class="surface-group" id="start-here"><p class="eyebrow">Where to start</p><h2>Main websites and their purpose</h2><ul class="directory surface-directory">'
 for role in roles:
     role_html += '<li><h3>' + link(role['url'],role['title']) + '</h3><p>' + esc(role['purpose']) + '</p></li>'
 role_html += '</ul><p>Specialist tools, collections, and experiments remain in the directory. <a href="stewardship.json">Read the public stewardship record</a>.</p></section>'
