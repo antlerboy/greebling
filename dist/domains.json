@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "groups": [
     [
       "main",
@@ -2028,6 +2028,17 @@
       "reviewCadence": "quarterly",
       "nextReview": "2027-02-05",
       "individualContentReview": "not recorded in this portfolio review"
+    },
+    {
+      "title": "Benjamin on Delphi (AI experiment)",
+      "url": "https://antlerboy.com/delphi/",
+      "purpose": "Try a digital approximation of Benjamin on the external Delphi service, and send feedback on what helped or went wrong.",
+      "group": "experiments",
+      "stewardRole": "Benjamin P Taylor",
+      "maintenanceStatus": "experimental",
+      "reviewCadence": "quarterly",
+      "nextReview": "2027-02-06",
+      "individualContentReview": "Public profile and experiment invitation checked 6 November 2026; answer quality has not been evaluated."
     }
   ],
   "aliases": [
