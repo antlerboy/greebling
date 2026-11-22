@@ -38,13 +38,10 @@ for key,title in groups:
         f'<ul>{"".join(items)}</ul></section>'
     )
 map_html=(
-    f'<div class="map-summary"><h3>The whole public estate</h3>'
-    f'<p>{len(mapped)} substantial sites, microsites, tools, exercises, programmes, '
-    f'offers, and reference surfaces, grouped by what they are for. '
-    f'Library subdivisions and external publishing profiles remain in the full directory below.</p></div>'
-    f'<div class="estate-map">{"".join(map_clusters)}</div>'
+    '<details class="map-index"><summary>Compact index of websites and tools</summary>'
+    f'<div class="estate-map">{"".join(map_clusters)}</div></details>'
 )
-parts=[f'<section id="web-surfaces" aria-labelledby="web-title"><p class="eyebrow">The connected work</p><h2 id="web-title">Websites, microsites, and useful entrances</h2><p class="lead">{len(surfaces)} destinations across consulting, learning, writing, tools, and reference, plus {len(data["aliases"])} campaign addresses and shortcuts.</p>',map_html,'<nav class="directory-nav" aria-label="Directory sections">']
+parts=[f'<section id="web-surfaces" aria-labelledby="web-title"><h2 id="web-title">Website directory</h2><p>Browse {len(surfaces)} websites, programmes, articles, and tools from my work and from the organisations I work with. Choose a subject to see the links and descriptions.</p>',map_html,'<nav class="directory-nav" aria-label="Directory sections">']
 parts.extend(link('#'+key,title) for key,title in groups)
 parts.extend([link('#campaign-addresses','Campaign addresses'),'</nav>'])
 for key,title in groups:
@@ -57,7 +54,7 @@ for key,title in groups:
             parts.append(f'<p class="domain-note">{link("https://"+s["address"]+"/",s["address"])}; {esc(s["note"])}</p>')
         parts.append('</li>')
     parts.append('</ul></section>')
-parts.append('<section class="surface-group" id="campaign-addresses" aria-labelledby="campaign-title"><h3 id="campaign-title">Campaign addresses and shortcuts</h3><p>These names lead into the same body of work. Both the address and its intended destination are shown. A listed destination does not confirm that the redirect is working.</p><div class="alias-table-wrap"><table class="alias-table"><thead><tr><th scope="col">Address</th><th scope="col">Destination</th></tr></thead><tbody>')
+parts.append('<section class="surface-group" id="campaign-addresses" aria-labelledby="campaign-title"><h3 id="campaign-title">Campaign addresses and shortcuts</h3><p>The second column links directly to the intended destination. Use it if the shorter address fails to open.</p><div class="alias-table-wrap"><table class="alias-table"><thead><tr><th scope="col">Address</th><th scope="col">Destination</th></tr></thead><tbody>')
 for a in data['aliases']:
     parts.append('<tr><th scope="row">'+link('https://'+a['domain']+'/',a['domain'])+'</th><td>'+link(a['destination'],display(a['destination']))+'</td></tr>')
 parts.append('</tbody></table></div><details class="reserved"><summary>Other registered names</summary><ul>')
@@ -68,13 +65,10 @@ month_names={'01':'January','02':'February','03':'March','04':'April','05':'May'
 updated_label=f'{int(updated_day)} {month_names[updated_month]} {updated_year}'
 parts.append(f'</ul></details></section><p class="inventory-date">Directory updated {updated_label}.</p></section>')
 template=(ROOT/'templates/index.html').read_text(encoding='utf-8')
-template=template.replace('<header>Greebling</header>','<a class="skip-link" href="#web-surfaces">Skip to the web directory</a><header><a class="brand" href="/">Greebling</a><nav aria-label="Main navigation"><a href="#web-surfaces">All websites and microsites</a><a href="#reading-title">Greebling writing</a></nav></header>')
-template=template.replace('Greebling writing and a map of Benjamin P Taylor’s connected public work.','Greebling writing and the directory of Benjamin P Taylor, RedQuadrant, and the PSTA websites, microsites, tools, and publications.')
-template=template.replace('Greebling | Essays and connections','Greebling | Writing, websites, and microsites')
 roles = data.get('stewardship', {}).get('coreRoles', [])
-role_html = '<section class="surface-group" id="start-here"><p class="eyebrow">Where to start</p><h2>Main websites and their purpose</h2><ul class="directory surface-directory">'
+role_html = '<section class="surface-group" id="start-here"><h2>Where I write and work</h2><ul class="directory surface-directory">'
 for role in roles:
     role_html += '<li><h3>' + link(role['url'],role['title']) + '</h3><p>' + esc(role['purpose']) + '</p></li>'
-role_html += '</ul><p>Specialist tools, collections, and experiments remain in the directory. <a href="stewardship.json">Read the public stewardship record</a>.</p></section>'
+role_html += '</ul><p><a href="stewardship.json">Site owners and maintenance notes (JSON)</a></p></section>'
 (ROOT/'dist/index.html').write_text(template.replace('<!-- ESTATE_ROLES -->', role_html).replace('<!-- WEB_DIRECTORY -->','\n'.join(parts)), encoding='utf-8')
 print(f'Rendered {len(mapped)} map destinations, {len(surfaces)} directory entries, and {len(data["aliases"])} campaign addresses.')
